@@ -343,8 +343,7 @@
 <script>
 const remoteConfigSample = process.env.VUE_APP_SUBCONVERTER_REMOTE_CONFIG;
 const gayhubRelease = process.env.VUE_APP_BACKEND_RELEASE;
-const defaultBackend =
-  process.env.VUE_APP_SUBCONVERTER_DEFAULT_BACKEND + "/sub?";
+const defaultBackend = process.env.VUE_APP_SUBCONVERTER_DEFAULT_BACKEND + "/sub?";
 const shortUrlBackend = process.env.VUE_APP_MYURLS_DEFAULT_BACKEND + "/short";
 const configUploadBackend =
   process.env.VUE_APP_CONFIG_UPLOAD_BACKEND + "/config/upload";
@@ -389,6 +388,13 @@ export default {
         },
         backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
         remoteConfig: [
+          {
+              label:"自建规则",
+              option:[{
+                  label:"全部",
+                  value:"https://raw.githubusercontent.com/gavinzmq/subconverter-config/main/all.ini"
+              }]
+          },
           {
             label: "通用",
             options: [
