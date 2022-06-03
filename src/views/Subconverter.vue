@@ -378,6 +378,7 @@ export default {
           ClashR: "clashr",
         },
         customBackend: {
+          "自建API":"https://subapi.vxyz.top/sub?",
           "肥羊增强型后端【vless+负载均衡】": "https://api.v1.mk/sub?",
           "つつ-多地防失联【负载均衡+国内优化】": "https://api.tsutsu.one/sub?",
           "品云提供后端【实验性】": "https://v.id9.cc/sub?",
