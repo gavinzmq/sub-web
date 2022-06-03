@@ -71,14 +71,14 @@
                       :label="item.label"
                       :value="item.value"
                     ></el-option>
-                  </el-option-group>
-                  <el-button
+                  </el-option-group>                  
+                </el-select>
+                <el-button
                     slot="append"
                     @click="gotoRemoteConfig"
                     icon="el-icon-link"
                     >配置示例</el-button
                   >
-                </el-select>
               </el-form-item>
               <el-form-item label="后端地址:">
                 <el-select
