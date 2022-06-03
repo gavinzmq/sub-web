@@ -390,11 +390,8 @@ export default {
         remoteConfig: [
           {
               label:"自建规则",
-              option:[{
+              options:[{
                   label:"全部",
-                  value:"https://raw.githubusercontent.com/gavinzmq/subconverter-config/main/all.ini"
-              },{
-                  label:"全部2",
                   value:"https://raw.githubusercontent.com/gavinzmq/subconverter-config/main/all.ini"
               }]
           },
